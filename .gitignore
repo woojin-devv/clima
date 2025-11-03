@@ -1,0 +1,122 @@
+# -----------------------------
+# OS 관련
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Editor 관련
+# -----------------------------
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# -----------------------------
+# Flutter / Dart / Pub 관련
+# -----------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+doc/api/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# -----------------------------
+# Android 관련
+# -----------------------------
+android/.gradle/
+android/.idea/
+android/local.properties
+android/key.properties
+android/app/debug
+android/app/profile
+android/app/release
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/gradle/
+*.jks
+
+# -----------------------------
+# iOS 관련
+# -----------------------------
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/build/
+ios/DerivedData/
+ios/.generated/
+
+# -----------------------------
+# macOS 관련
+# -----------------------------
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/build/
+macos/.symlinks/
+macos/Runner/GeneratedPluginRegistrant.swift
+
+# -----------------------------
+# Windows 관련
+# -----------------------------
+windows/flutter/ephemeral/
+windows/GeneratedPluginRegistrant.*
+windows/build/
+
+# -----------------------------
+# Linux 관련
+# -----------------------------
+linux/flutter/ephemeral/
+linux/GeneratedPluginRegistrant.*
+linux/build/
+
+# -----------------------------
+# Web 관련
+# -----------------------------
+web/.dart_tool/
+web/build/
+web/.firebase/
+web/.firebase_cache/
+
+# -----------------------------
+# Firebase / Secrets / 환경변수
+# -----------------------------
+*.env
+.env.*
+firebase.json
+google-services.json
+GoogleService-Info.plist
+*.keystore
+*.p12
+*.pem
+*.key
+*.cer
+
+# -----------------------------
+# Symbolication / Obfuscation
+# -----------------------------
+app.*.symbols
+app.*.map.json
+
+# -----------------------------
+# Migration / SwiftPM / 기타
+# -----------------------------
+migrate_working_dir/
+.swiftpm/
+.build/
+.buildlog/
+.history
+.svn/
